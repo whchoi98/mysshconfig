@@ -1,0 +1,258 @@
+####	centos	####
+Host 	centos151
+        User root
+        HostName 10.72.78.151
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host 	centos152
+        User root
+        HostName 10.72.78.152
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host 	centos153
+        User root
+        HostName 10.72.78.153
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host 	centos154
+        User root
+        HostName 10.72.78.154
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host 	ubuntu161
+        User root
+        HostName 10.72.78.161
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host 	ubuntu162
+        User root
+        HostName 10.72.78.162
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host 	ubuntu163
+        User root
+        HostName 10.72.78.163
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host 	ubuntu164
+        User root
+        HostName 10.72.78.164
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host 	ansible
+        User whchoi
+        HostName 10.72.78.251
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host 	centrepo
+        User whchoi
+        HostName 10.72.78.253
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host 	ubunturepo
+        User whchoi
+        HostName 10.72.78.252
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+
+Host	ns1
+        User whchoi
+        HostName 10.72.86.7
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	ns2
+        User whchoi
+        HostName 10.72.78.253
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	ntp1
+        User whchoi
+        HostName 10.72.86.7
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	ntp2
+        User whchoi
+        HostName 10.72.78.253
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	centtemp	
+        User root 
+        HostName 10.72.78.250
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	ubuntutemp
+        User whchoi
+        HostName 10.72.78.249
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	freenas
+        User admin
+        HostName 10.72.86.20
+        Port 22
+        Protocol 2
+
+####    ACI   ####
+Host	apic21
+        User admin 
+        HostName 10.72.86.21
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	apic22
+        User admin
+        HostName 10.72.86.22
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	apic23
+        User admin
+        HostName 10.72.86.22
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+####    Network Switch ####
+Host	dcoob
+	User admin
+        HostName 10.72.86.1
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	n5k-a
+	User admin
+        HostName 10.72.86.2
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	n5k-b
+	User admin
+        HostName 10.72.86.3
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	n6k-a
+	User admin
+        HostName 10.72.86.141
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	n6k-b
+	User admin
+        HostName 10.72.86.142
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOS-SPINE-1001	
+        User whchoi
+        HostName 10.72.86.143
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOS-SPINE-1002	
+        User whchoi
+        HostName 10.72.86.144
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOS-LEAF-1003	
+        User whchoi
+        HostName 10.72.86.145
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOS-LEAF-1004	
+        User whchoi
+        HostName 10.72.86.146
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOS-LEAF-1005	
+        User whchoi
+        HostName 10.72.86.147
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOS-LEAF-1006	
+        User whchoi
+        HostName 10.72.86.148
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+####	VMware ESX Hosts ####
+Host    esx31	
+        User root 
+        HostName 10.72.86.31
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx32	
+        User root 
+        HostName 10.72.86.32
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx33	
+        User root 
+        HostName 10.72.86.33
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx34	
+        User root 
+        HostName 10.72.86.34
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+
+
