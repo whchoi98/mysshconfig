@@ -225,7 +225,64 @@ Host	NXOS-LEAF-1006
         IdentityFile ~/.ssh/id_rsa
         Protocol 2
 
-####	VMware ESX Hosts ####
+####	NXOSv Switch ####
+Host	NXOSv-S1
+        User whchoi
+        HostName 10.72.78.171
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOSv-S2
+        User whchoi
+        HostName 10.72.78.172
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOSv-L3
+        User whchoi
+        HostName 10.72.78.173
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOSv-L4
+        User whchoi
+        HostName 10.72.78.174
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOSv-L5
+        User whchoi
+        HostName 10.72.78.175
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOSv-L6
+        User whchoi
+        HostName 10.72.78.176
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOSv-E7
+        User whchoi
+        HostName 10.72.78.177
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host	NXOSv-E8
+        User whchoi
+        HostName 10.72.78.178
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+####	DC1 - VMware ESX Hosts ####
 Host    esx31	
         User root 
         HostName 10.72.86.31
@@ -254,5 +311,151 @@ Host    esx34
         IdentityFile ~/.ssh/id_rsa
         Protocol 2
 
+Host    esx35
+        User root 
+        HostName 10.72.86.35
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
 
+Host    esx36
+        User root 
+        HostName 10.72.86.36
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
 
+Host    esx37
+        User root 
+        HostName 10.72.86.37
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx38
+        User root 
+        HostName 10.72.86.38
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx39
+        User root 
+        HostName 10.72.86.39
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx40
+        User root 
+        HostName 10.72.86.40
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx41
+        User root 
+        HostName 10.72.86.41
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx113
+        User root 
+        HostName 10.72.86.113
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx114
+        User root 
+        HostName 10.72.86.114
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx115
+        User root 
+        HostName 10.72.86.115
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+####	DC2 - VMware ESX Hosts ####
+
+Host    esx91
+        User root 
+        HostName 10.72.86.91
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx92
+        User root 
+        HostName 10.72.86.92
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx93
+        User root 
+        HostName 10.72.86.93
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx94
+        User root 
+        HostName 10.72.86.94
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx95
+        User root 
+        HostName 10.72.86.95
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx96
+        User root 
+        HostName 10.72.86.96
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx97
+        User root 
+        HostName 10.72.86.97
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    esx98
+        User root 
+        HostName 10.72.86.98
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    HX123
+        User root 
+        HostName 10.72.86.123
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    HX124
+        User root 
+        HostName 10.72.86.124
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
+
+Host    HX125
+        User root 
+        HostName 10.72.86.125
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
