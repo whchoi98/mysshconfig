@@ -27,6 +27,12 @@ Host 	centos154
         IdentityFile ~/.ssh/id_rsa
         Protocol 2
 
+Host 	centos155
+        User root
+        HostName 10.72.78.155
+        Port 22
+        IdentityFile ~/.ssh/id_rsa
+        Protocol 2
 Host 	ubuntu161
         User root
         HostName 10.72.78.161
